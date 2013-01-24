@@ -7,13 +7,18 @@ public class arrays {
 	}
 
 	public static double avg(int[] nums) {
-		double counter = 0.0;
+		return ((double) sum(nums)/nums.length);
+	}
+
+	public static int sum(int[] nums) {
+		int sum = 0;
 
 		for(int i = 0; i<nums.length; i++){
-			counter += nums[i];
+			sum += nums[i];
 		}
 
-		return counter/nums.length;
+		return sum;
+
 	}
 
 }
