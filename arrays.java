@@ -1,3 +1,12 @@
+/**
+ * 		arrays
+ *
+ * 				Methods for dealing with arrays
+ *
+ * 		Kyle Vigil
+ */
+
+
 public class arrays {
 
 	public static void main(String[] args) {
@@ -6,10 +15,26 @@ public class arrays {
 		System.out.println(avg(nums));
 	}
 
+
+	/**
+	 * avg
+	 * 		Finds the mean value of an array
+	 *
+	 * @param nums - the array
+	 * @return the mean
+	 */
 	public static double avg(int[] nums) {
 		return ((double) sum(nums)/nums.length);
 	}
 
+
+	/**
+	 * sum
+	 * 		Finds the sum of an array
+	 *
+	 * @param nums - the array
+	 * @return the sum
+	 */
 	public static int sum(int[] nums) {
 		int sum = 0;
 
